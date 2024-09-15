@@ -1,0 +1,20 @@
+/* colors */
+
+/*
+60% of #56A1A9 - Primary
+30% of #5677A9 - Secondary
+10% of #56A988 - Accent
+*/
+
+:root {
+
+/* var(--dominantColor) !important; */
+--dominantColor: #56A1A9;
+
+/* var(--secondaryColor) !important; */
+--secondaryColor: #5677A9;
+
+/* var(--accentColor) !important; */
+--accentColor: #56A988;
+
+}
