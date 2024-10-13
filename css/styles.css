@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 @import 'global.css';
 @import 'main.css';
 
@@ -14,4 +16,16 @@
 
 .fa-row-icon:hover{
     transform: scale(1.1);
+}
+
+.first-paragraph-div {
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 20px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 18px;
 }
