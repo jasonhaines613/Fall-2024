@@ -51,7 +51,7 @@ padding-bottom: 35px;
     background-color: #ffffff;
 }
 
-.material-symbol-outlined, .material-symbol-outlined a {
+.material-symbols-outlined, .material-symbols-outlined a {
     font-size: 60px;
     color: var(--dominantColor) !important;
     position: relative;
