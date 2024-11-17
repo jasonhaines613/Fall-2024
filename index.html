@@ -20,6 +20,9 @@
 
   <!-- Local CSS -->
    <link href="css/styles.css" rel="stylesheet"/>
+
+  <!-- Local CSS -->
+    <link href="css/form.css" rel="stylesheet"/>
 </head>
 <body>
   <header>
@@ -275,12 +278,12 @@
         <div class="row">
           <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
         <label for="first-name">Full Name</label>
-        <input type-"text" name="firstName" id="first-name" class="first-name form-control" required />
+        <input type="text" name="firstName" id="first-name" class="first-name form-control" required />
         </div>
 
       <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
         <label for="last-name">Last Name</label>
-        <input type-"text" name="firstName" id="first-name" class="first-name form-control" required />
+        <input type="text" name="firstName" id="first-name" class="first-name form-control" required />
         </div>
 
         <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
@@ -299,9 +302,10 @@
              <option value=""> Please select one</option>
              <option value="Choice one"> Choice one</option>
              <option value="Choice two"> Choice two</option>
-             <option value="CUSTOM"> CUSTOM</option>
+             <option value="Choice three"> Choice three</option>
+              <option value="CUSTOM">OTHER</option>
           </select>
-          <input type="text" id="custom" class="form-control" disabled />
+            <input type="text" name="custom" id="custom" class="form-control" disabled />
           </div>
 
           <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
@@ -309,11 +313,14 @@
             <input type="file" name="upload" accept=".jpg" class="form-control" />
         </div>
 
-          <div class="col-12">
-          <input type="checkbox" id="terms-and-conditions" name="terms" value="Yes" required />
+          <div class="col-12 form-check form-switch">
+          <input type="checkbox" id="terms-and-conditions" name="terms" value="Yes" class="form-check-input" required />
           <label>I accept the terms and conditions</label>
           </div>
 
+          <div class="col-12">
+            <input type="submit" name="submit" id="submit" class="btn btn-primary" />
+            </div>
         </div>
       </form>
     </div>
@@ -382,6 +389,7 @@
     });
   </script>
 
+<script type="text/javascript" src="js/form.js"></script>
  </div>
 </body>
 </html>
