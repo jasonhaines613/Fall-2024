@@ -13,7 +13,7 @@ $( document ).ready(function() {
         position: "overImageOnBottom",
         display: false
     },
-thumbnailHoverEffect2: "imageScaleIn80|imageSepiaOfff|LabelApper75",
+thumbnailHoverEffect2: "imageScaleIn80|imageSepiaOfff|LabelAppear75",
 thumbnailGutterWidth: 20,
 thumbnailGutterHeight: 20,
 thumbnailAlignment: "center",
